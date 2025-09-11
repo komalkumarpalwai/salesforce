@@ -1,0 +1,28 @@
+Project Title:
+Banking Loan Origination & Approval Workflow
+
+Problem Context:
+A bank receives a large number of loan applications (home, car, personal) every day. Currently, the process is manual: applications are collected, verified by staff, routed through multiple approval levels, and tracked via spreadsheets. This results in delays, lost applications, and inconsistent decision-making.
+
+Business Problem:
+The bank needs an automated system to capture loan applications, track their status, and manage the initial approval workflow to reduce manual errors and improve processing efficiency.
+
+Phase 1 Scope:
+
+Capture loan applications in Salesforce using custom objects.
+
+Collect basic applicant details: Name, Contact, Loan Type, Loan Amount, and Income Details.
+
+Implement single-level automated approval for initial verification (e.g., loan officer approval).
+
+Generate basic status tracking for applications (Submitted, Approved, Rejected).
+
+Provide a dashboard/report showing applications by loan type and status.
+
+Expected Outcome:
+
+Centralized tracking of all loan applications.
+
+Reduced manual effort and errors in the initial verification process.
+
+Faster decision-making for loan approvals.

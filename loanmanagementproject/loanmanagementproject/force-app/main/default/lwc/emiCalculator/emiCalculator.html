@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="EMI Calculator" icon-name="utility:currency">
+        <div class="slds-p-around_medium">
+            <lightning-input type="number" label="Loan Amount (₹)" value={loanAmount} onchange={handleAmount}></lightning-input>
+            <lightning-input type="number" label="Interest Rate (%)" value={interestRate} onchange={handleRate}></lightning-input>
+            <lightning-input type="number" label="Tenure (Months)" value={tenure} onchange={handleTenure}></lightning-input>
+
+            <lightning-button label="Calculate EMI" variant="brand" onclick={calculateEMI} class="slds-m-top_medium"></lightning-button>
+
+            <template if:true={emi}>
+                <p class="slds-m-top_medium slds-text-heading_medium">
+                    Your Monthly EMI: ₹ {emi}
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
